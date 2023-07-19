@@ -1,0 +1,86 @@
+body{
+background-color: #FFE5CA;
+margin: 10px;
+}
+
+div{
+    background-color: #F24C3D;
+
+  }
+
+  .burger-options{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: white;
+    border: 4px solid black;
+    width: 440px;
+    height: 600px;
+    margin: 20px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.cheeseburger{
+    background: url(https://assets.epicurious.com/photos/5c745a108918ee7ab68daf79/1:1/w_960,c_limit/Smashburger-recipe-120219.jpg);
+    background-image: cover;
+}
+
+.chickenburger{
+    background: url(https://vikalinka.com/wp-content/uploads/2021/07/Greek-Chicken-Burger-1CR2-Edit.jpg);
+}
+  
+.Pizzaburgers{
+    background: url(https://hips.hearstapps.com/hmg-prod/images/singleimagebug-pizza-burgers-pin-1555625038.jpg?crop=1xw:0.9453781512605042xh;center,top&resize=980:*);
+}
+  
+.burgerking{
+    background: url(https://retailinsider.b-cdn.net/wp-content/uploads/2021/11/DJI_0246_skrpl-scaled.jpg);
+    background-image: cover;
+}
+
+.mcdonalds{
+    background: url(https://nationaltoday.com/wp-content/uploads/2022/08/27-McDonalds-Day-1200x834.jpg);
+}
+  
+.fiveguys{
+    background: url(https://hagadone.media.clients.ellingtoncms.com/img/photos/2021/02/04/0214_LOC_DIL_Five_Guys_biz_1_r1200x630.jpg?b7d505e466ff31ef2a911eceee85296b69915698);
+}
+
+.card p {
+    padding: 15px;
+}
+
+.card-image{
+    height: 420px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.card button:hover {
+    background-color: #E74646;
+    color: white;
+  }
+
+.card:hover{
+    transform:scale(1.02);
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.burger-locations{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
